@@ -13,17 +13,17 @@ const NavBar = () => {
                     >
                         Home
                     </NavLink>
-                    <NavLink to="/about"
-                    className="inline-flex items-center py-3 px-3 mr-4 text-blue-100 hover:text-blue-400 text-base font-bold tracking-widest serif"
-                    activeClassName="text-white bg-blue-700"
-                    >
-                        About
-                    </NavLink>
                     <NavLink to="/post"
                     className="inline-flex items-center py-3 px-3 mr-4 text-blue-100 hover:text-blue-400 text-base font-bold tracking-widest serif"
                     activeClassName="text-white bg-blue-700"
                     >
                         Blogs
+                    </NavLink>
+                    <NavLink to="/about"
+                    className="inline-flex items-center py-3 px-3 mr-4 text-blue-100 hover:text-blue-400 text-base font-bold tracking-widest serif"
+                    activeClassName="text-white bg-blue-700"
+                    >
+                        About
                     </NavLink>
                     <NavLink to="/project"
                     className="inline-flex items-center py-3 px-3 mr-4 text-blue-100 hover:text-blue-400 text-base font-bold tracking-widest serif"
