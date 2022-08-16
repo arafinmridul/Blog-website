@@ -1,6 +1,11 @@
 const Home = () => {
     return (
-        <h1>Home Page!</h1>
+        <main>
+            <img src="" alt="" />
+            <section>
+                <h1>Hey! I am Mridul</h1>
+            </section>
+        </main>
     );
 }
  
